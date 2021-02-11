@@ -1,9 +1,9 @@
 <template>
     <div>
-        <h1>Login</h1>
+        <h1>Sing Up</h1>
         <input type="email" placeholder="Email">
         <input type="password" placeholder="Password">
-        <button @click="login">Login</button>
+        <button @click="singUp">Sing in</button>
     </div>
 </template>
 
@@ -17,7 +17,7 @@
             }
         },
         methods: {
-            login(){
+            singUp(){
 
             }
         }
