@@ -1,15 +1,15 @@
 <template>
     <div>
         <h1>Login</h1>
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
+        <input v-model="email" type="email" placeholder="Email">
+        <input v-model="password" type="password" placeholder="Password">
         <button @click="login">Login</button>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'Login'
+        name: 'Login',
         data(){
             return{
                 email: '',
