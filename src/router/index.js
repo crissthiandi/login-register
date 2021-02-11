@@ -13,6 +13,21 @@ const routes = [
     name: "Home",
     component: Home
   },
+  {
+    path: "/Login",
+    name: "Login",
+    component: Login
+  },
+  {
+    path: "/Sing-UP",
+    name: "SingUP",
+    component: SingUP
+  },
+  {
+    path: "/dashboard",
+    name: "Private",
+    component: Private
+  },
 
 ];
 
