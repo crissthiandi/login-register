@@ -9,6 +9,10 @@ Vue.use(VueRouter);
 
 const routes = [
   {
+    path: "*",
+    redirect: '/'
+  },
+  {
     path: "/",
     name: "Home",
     component: Home
@@ -19,7 +23,7 @@ const routes = [
     component: Login
   },
   {
-    path: "/Sing-UP",
+    path: "/Sing-Up",
     name: "SignUp",
     component: SignUp
   },
@@ -27,7 +31,7 @@ const routes = [
     path: "/dashboard",
     name: "Private",
     component: Private
-  },
+  }
 
 ];
 

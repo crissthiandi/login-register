@@ -3,7 +3,7 @@
         <h1>Sign Up</h1>
         <input v-model="email" type="email" placeholder="Email">
         <input v-model="password" type="password" placeholder="Password">
-        <button @click="signUp">Sing in</button>
+        <button @click="SignUp">Sing in</button>
     </div>
 </template>
 
@@ -17,7 +17,7 @@
             }
         },
         methods: {
-            signUp(){
+            SignUp(){
 
             }
         }
