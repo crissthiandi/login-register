@@ -18,6 +18,7 @@
         },
         methods: {
             SignUp(){
+                firebase.auth().createUserWithEmailAndPassword(email, password)
 
             }
         }
