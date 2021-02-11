@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <h1>
       Esta es una pagina publica
     </h1>
@@ -8,12 +8,8 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "Home",
-  components: {
-    HelloWorld
-  }
 };
 </script>
