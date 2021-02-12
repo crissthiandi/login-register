@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Compilado para deploy
+La carpeta dist tiene el producto final compilado y listo para deploy :3
