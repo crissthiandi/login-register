@@ -1,27 +1,3 @@
 # login-register
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### Compilado para deploy
-La carpeta dist tiene el producto final compilado y listo para deploy :3
+Este login solo hace inicios de sesión y control de sesión. Al autentificar se tiene acceso a la ruta dashboard que por el momento no tiene nada, pero la cual es inaccesible sin haber hecho login.
