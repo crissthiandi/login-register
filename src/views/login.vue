@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <h1>Login page</h1>
-        <input v-model="email" type="email" placeholder="Email">
-        <input v-model="password" type="password" placeholder="Password">
-        <button @click="login">Login</button>
+    <div class="bg-white max-w-md rounded mt-4 m-auto p-4 overflow-hiddem shadow-lg">
+        <h1 class="font-bold text-blue-600 text-5xl mb-4 text-center">Login</h1>
+        <input class="appearance-none mb-4 block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:bg-white focus:outline-none focus:border-gray-500" v-model="email" type="email" placeholder="Email">
+        <input class="appearance-none mb-4 block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:bg-white focus:outline-none focus:border-gray-500" v-model="password" type="password" placeholder="Password">
+        <button class="p-3 px-4 font-bold text-white rounded-lg bg-blue-400 " @click="login">Login</button>
     </div>
 </template>
 
@@ -24,7 +24,9 @@
                     .then((user) => {
                         // Signed in
                         // ...
-                        alert("El usuario se creo de forma satisfactoria"+user)
+                        alert("El usuario se logeo bien"+user)
+                        this.$router.replace('dashboard')
+
                     })
                     .catch(function(error) {
                         // Handle Errors here.
